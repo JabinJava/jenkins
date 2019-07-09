@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
 	@RequestMapping("/")
 	public String index() {
-		return "回滚!";
+		return "jenkins 持续集成 ！";
 	}
 	
 	
